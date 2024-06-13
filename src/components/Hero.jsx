@@ -38,9 +38,9 @@ const Hero = () => {
         <p id="hero" className="hero-title absolute z-10">
           Cloud Computing
         </p>
-        <div className="md:w-10/12 w-9/12 relative">
+         <div className="md:w-10/12 w-full h-full relative"> 
           <video
-            className="pointer-events-none object-cover"
+            className="pointer-events-none w-full h-full object-cover"
             autoPlay
             muted
             playsInline={true}
