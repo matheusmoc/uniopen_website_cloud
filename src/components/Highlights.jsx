@@ -15,7 +15,17 @@ const Highlights = () => {
       <h1 id="title" className="section-heading">
         O que é nuvem?
       </h1>
-      <div className="flex items-center gap-5">
+      <div className="hidden md:flex items-center gap-5">
+        <button className="flex btn items-center">
+          Assistir vídeo
+          <img src={watchImg} alt="watch" className="ml-2" />
+        </button>
+        <button className="flex btn items-center">
+          Assistir evento
+          <img src={rightImg} alt="right" className="ml-2" />
+        </button>
+      </div>
+      <div className="md:hidden flex flex-col items-center gap-5">
         <button className="flex btn items-center">
           Assistir vídeo
           <img src={watchImg} alt="watch" className="ml-2" />
@@ -27,6 +37,6 @@ const Highlights = () => {
       </div>
     </div>
   </section>
-  );
+    );
 }
 export default Highlights
