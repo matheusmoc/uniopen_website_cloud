@@ -33,30 +33,29 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="w-full nav-height bg-black relative">
-      <div className="h-5/6 w-full flex-center flex-col relative -mt-16">
-        <p id="hero" className="hero-title absolute z-10">
-          Cloud Computing
-        </p>
-         <div className="md:w-10/12 w-full h-full relative"> 
-          <video
-            className="pointer-events-none w-full h-full object-cover"
-            autoPlay
-            muted
-            playsInline={true}
-            loop
-            key={videoSrc}
-          >
-            <source src={videoSrc} type="video/mp4" />
-          </video>
-        </div>
+  <section className="w-full nav-height bg-black relative">
+    <div className="h-5/6 w-full flex-center flex-col relative -mt-40">
+      <p id="hero" className="hero-title absolute z-10">
+        Cloud Computing
+      </p>
+      <div className="md:w-10/12 w-full h-full relative">
+        <video
+          className="pointer-events-none w-full h-full object-cover scaled-video"
+          autoPlay
+          muted
+          playsInline={true}
+          loop
+          key={videoSrc}
+        >
+          <source src={videoSrc} type="video/mp4" />
+        </video>
       </div>
+    </div>
     
     <div id="cta" className="flex flex-col items-center opacity-0 translate-y-20">
-        <a href="#highlights" className="btn">Aprender agora!</a>
+      <a href="#highlights" className="btn">Aprender agora!</a>
     </div>
-
-    </section>
+  </section>
   );
 };
 

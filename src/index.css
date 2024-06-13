@@ -31,6 +31,9 @@ canvas {
   max-width: 1120px;
 }
 
+.scaled-video {
+  transform: scale(1.2); 
+}
 
 @layer utilities {
   .flex-center {
