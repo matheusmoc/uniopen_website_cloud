@@ -36,7 +36,7 @@ const Hero = () => {
   <section className="w-full nav-height bg-black relative">
     <div className="h-5/6 w-full flex-center flex-col relative -mt-40">
       <p id="hero" className="hero-title absolute z-10">
-        Cloud Computing
+        Computação em nuvem
       </p>
       <div className="md:w-10/12 w-full h-full relative">
         <video
