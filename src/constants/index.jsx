@@ -5,7 +5,7 @@ import {
   highlightThirdVideo,
 } from "../utils";
 
-export const navLists = ["INÍCIO", "O QUE É", "VANTAGENS", "CONTATO"];
+export const navLists = ["Início", "O que é", "Vantagens", "Contato"];
 
 export const highlightsSlides = [
   {
