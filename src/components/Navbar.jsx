@@ -12,7 +12,7 @@ return (
         <div className="flex flex-1 justify-center max-sm:hidden">
             {navLists.map((nav) => (
                 <div className='px-5 xl:text-xl sm:text-sm cursor-pointer text-gray hover:text-fuchsia-500 transition-all' key={nav}>
-                    {nav}
+                    {nav.toUpperCase()}
                 </div>
             ))}
         </div>
