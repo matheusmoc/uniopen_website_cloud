@@ -17,12 +17,14 @@ export const highlightsSlides = [
     ],
     video: highlightFirstVideo,
     videoDuration: 4,
+    youtubeLink: "https://www.youtube.com/watch?v=OFIVUTmc2cs&t=11s"
   },
   {
     id: 2,
     textLists: ["Vantagens da Nuvem.", "Eficiência, escalabilidade e segurança."],
     video: highlightSecondVideo,
     videoDuration: 5,
+    youtubeLink: 'https://www.youtube.com/watch?v=8JI9wQ8sUdQ&t=28s'
   },
   {
     id: 3,
@@ -33,12 +35,14 @@ export const highlightsSlides = [
     ],
     video: highlightThirdVideo,
     videoDuration: 2,
+    youtubeLink: 'https://www.youtube.com/watch?v=FDFejm-ovtI'
   },
   {
     id: 4,
     textLists: ["Segurança na Nuvem.", "Proteja seus dados de forma eficaz."],
     video: highlightFourthVideo,
     videoDuration: 3.63,
+    youtubeLink: 'https://www.youtube.com/watch?v=FA4_nzMiK0g'
   },
 ];
 

@@ -2,6 +2,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Highlights from './components/Highlights'
+import Relation from './components/Relation'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Highlights />
+      <Relation />
     </main>
   )
 }
