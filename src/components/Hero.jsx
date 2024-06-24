@@ -27,7 +27,6 @@ const Hero = () => {
 
   useEffect(() => {
     window.addEventListener('resize', handleVideoSrcSet);
-    // Call the function once to set the initial video source
     handleVideoSrcSet();
 
     return () => {

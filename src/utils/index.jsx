@@ -8,8 +8,6 @@ import highlightFirstmv from "/assets/videos/aws-video-1.mp4";
 import highlightSectmv from "/assets/videos/o-que-e-a-aws.mp4";
 import highlightThirdmv from "/assets/videos/como-funciona.mp4";
 import highlightFourthmv from "/assets/videos/seguranca.mp4";
-
-
 import logo from "/assets/images/logo-cloud-unicoder.png";
 import search from "/assets/images/search.svg";
 import bag from "/assets/images/bag.svg";
@@ -20,6 +18,10 @@ import pause from "/assets/images/pause.svg";
 import watch from "/assets/images/watch.svg";
 import robot from "/assets/images/robot-futuristic.png";
 
+import serviceCloud1 from "/assets/images/amazon_web_services.png";
+import serviceCloud2 from "/assets/images/Microsoft-Azure-Logo.png";
+import serviceCloud3 from "/assets/images/google-cloud-3.svg";
+
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
@@ -27,7 +29,6 @@ export const highlightFirstVideo = highlightFirstmv;
 export const highlightSecondVideo = highlightSectmv;
 export const highlightThirdVideo = highlightThirdmv;
 export const highlightFourthVideo = highlightFourthmv;
-
 export const logoImg = logo;
 export const searchImg = search;
 export const bagImg = bag;
@@ -37,3 +38,6 @@ export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
 export const robotImg = robot;
+export const serviceImg1 = serviceCloud1
+export const serviceImg2 = serviceCloud2
+export const serviceImg3 = serviceCloud3

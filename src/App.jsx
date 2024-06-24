@@ -5,6 +5,7 @@ import Highlights from './components/Highlights'
 import Relation from './components/Relation'
 import TheService from './components/TheService'
 import DropDownDisciplines from './components/DropDownDisciplines'
+import AvailableServices from './components/AvailableServices'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Relation />
         <TheService />
         <DropDownDisciplines />
+        <AvailableServices />
       </main>
     </div>
   )
