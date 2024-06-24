@@ -44,12 +44,12 @@ const AvailableServices = () => {
                 </a>
               </div>
             </div>
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
-              <div className="w-full h-3/4 bg-black opacity-70"></div> {/* Backdrop escuro */}
-              <div className="w-full h-75vh bg-cover bg-center relative z-10">
+            {/* <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
+              <div className="w-full h-3/4 bg-black opacity-70"></div>
+              <div className="w-full h-50vh bg-cover bg-center relative z-10">
                 <img src="./../assets/images/model.png" alt="Model" className="w-full h-full object-cover" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
