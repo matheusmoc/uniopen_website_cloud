@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Highlights from './components/Highlights'
 import Relation from './components/Relation'
+import TheService from './components/TheService'
+import { DropDownDisciplines } from './components/DropDownDisciplines'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
         <Hero />
         <Highlights />
         <Relation />
+        <TheService />
+        <DropDownDisciplines />
       </main>
     </div>
   )
