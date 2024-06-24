@@ -8,7 +8,7 @@ const AvailableServices = () => {
           <h1 className="hero-title pb-14">
             Vamos explorar algumas tecnologias?
           </h1>
-          <h4 className="font-thin justify-center items-center">
+          <h4 className="font-thin justify-center items-center mb-5">
             Escolha uma tecnologia da roleta para aprender um pouquinho
           </h4>
           <div className="banner relative w-full max-h-screen overflow-hidden">
@@ -44,12 +44,11 @@ const AvailableServices = () => {
                 </a>
               </div>
             </div>
-            {/* <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
-              <div className="w-full h-3/4 bg-black opacity-70"></div>
-              <div className="w-full h-50vh bg-cover bg-center relative z-10">
-                <img src="./../assets/images/model.png" alt="Model" className="w-full h-full object-cover" />
-              </div>
-            </div> */}
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
+            <div className="w-full h-50vh bg-cover bg-center relative z-10 opacity-20">
+              <img src="./../assets/images/model.png" alt="Model" className="w-full h-full object-cover" />
+            </div>
+          </div>
           </div>
         </div>
       </div>
