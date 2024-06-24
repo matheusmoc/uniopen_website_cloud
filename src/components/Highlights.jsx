@@ -21,10 +21,10 @@ const Highlights = () => {
             Assistir vídeo
             <img src={watchImg} alt="watch" className="ml-2" />
           </button>
-          <button className="flex btn items-center">
+          <a href="https://unimontes.br/uniopen/" className="flex btn items-center">
             Assistir evento
             <img src={rightImg} alt="right" className="ml-2" />
-          </button>
+          </a>
         </div>
       </div>
         <VideoCarousel />

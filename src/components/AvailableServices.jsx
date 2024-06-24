@@ -47,7 +47,7 @@ const AvailableServices = () => {
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
               <div className="w-full h-3/4 bg-black opacity-70"></div> {/* Backdrop escuro */}
               <div className="w-full h-75vh bg-cover bg-center relative z-10">
-                <img src="./../public/assets/images/model.png" alt="Model" className="w-full h-full object-cover" />
+                <img src="./../assets/images/model.png" alt="Model" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
